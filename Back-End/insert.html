@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scaled=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Insert</h1>
+	    <form action="/api/mahasiswa" method="post">
+            <label>NIM  : </label><br>
+            <input type="text" name="nim" placeholder="NIM"><br>
+            <label>Nama : </label><br>
+            <input type="text" name="nama" placeholder="NAMA"><br>
+            <label>Jenis kelamin    : </label><br>
+            <input type="text" name="jenis_kelamin" placeholder="jenis-kelamin"><br>
+            <label>Kota Asal        : </label><br>
+            <input type="text" name="kota_asal" placeholder="Kota_Asal"><br>
+            <input type="submit" value = "Insert">
+        </form>
+        <form action="/delete"></form>
+            <a href="/delete"><input type="submit" value="Delete"></a>
+        <form action="/update"></form>
+            <a href="/update"><input type="submit" value="Update"></a>
+    </body>
+</html>
